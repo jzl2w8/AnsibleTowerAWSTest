@@ -8,7 +8,6 @@
 #   - vars/aws-creds.yml
 
   tasks:
-
   - name: Create required security groups
     ec2_group:
       name: "{{ item.name }}"
