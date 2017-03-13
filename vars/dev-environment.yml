@@ -1,5 +1,5 @@
 # set these parameters to control the region, keypair, and AMI that are launched
-ec2_region: us-east-1
+ec2_region: us-west-2
 instances_keypair: MyTest 
 image_id: ami-d2c924b2
 
