@@ -3,7 +3,7 @@
 # ec2_secret_key: 
 ec2_region: us-west-2
 ec2_zone: us-west-2b
-ec2_image: ami-bf5021d6
+ec2_image: ami-d2c924b2
 ec2_instance_type: m1.small
 ec2_keypair: MyTest
 ec2_security_group: default
