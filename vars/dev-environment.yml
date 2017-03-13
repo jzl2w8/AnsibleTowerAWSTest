@@ -1,4 +1,3 @@
----
 # set these parameters to control the region, keypair, and AMI that are launched
 ec2_region: us-east-1
 instances_keypair: keypair-name 
