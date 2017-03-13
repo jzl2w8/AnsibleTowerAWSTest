@@ -4,7 +4,7 @@
 ec2_region: us-west-2
 ec2_zone: us-west-2b
 ec2_image: ami-d2c924b2
-ec2_instance_type: m1.small
+ec2_instance_type: t2.small
 ec2_keypair: MyTest
 ec2_security_group: default
 ec2_instance_count: 1
