@@ -7,7 +7,7 @@
 
   # load AWS variables from this group vars file
   vars_files:
-  - group_vars/allvar2
+  - vars/allvar2
 
   tasks:
   - name: Launch webserver instances
