@@ -3,8 +3,7 @@
   connection: local
   gather_facts: False
   vars:
-    # vmname: josetestansible03
-    - vars/dev-environment.yml
+  - vars/dev-environment.yml
   tasks:
   - name: Create required security groups
     ec2_group:
