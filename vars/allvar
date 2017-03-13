@@ -1,10 +1,10 @@
 ---
 # ec2_access_key: 
 # ec2_secret_key: 
-ec2_region: us-west-2b
+ec2_region: US West (Oregon)
 ec2_zone: us-west-2b
 ec2_image: ami-bf5021d6
 ec2_instance_type: m1.small
 ec2_keypair: keypair-name
 ec2_security_group: default
-ec2_instance_count: 2
+ec2_instance_count: 1
