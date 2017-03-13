@@ -2,7 +2,7 @@
   hosts: localhost
   connection: local
   gather_facts: False
-  vars:
+  vars_files:
   - vars/dev-environment.yml
   tasks:
   - name: Create required security groups
