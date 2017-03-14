@@ -23,7 +23,8 @@
       count: "{{ ec2_instance_count }}"
       wait: true
     register: ec2
-
+  - name: Print all ec2 variables
+    debug: var=ec2
 #  - name: Wait for SSH to come up
 #    wait_for:
 #      host: "{{ item.public_dns_name }}"
