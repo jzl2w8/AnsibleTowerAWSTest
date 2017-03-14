@@ -1,3 +1,5 @@
+---
+# Provision instances in AWS specific to the LAMP HA Proxy demo
 - name: Provision ec2 instances based on the environment
   hosts: localhost
   connection: local
