@@ -4,7 +4,6 @@
   hosts: localhost
   connection: local
   gather_facts: False
-  stratergy: debug
   vars_files:
   - vars/dev-environment.yml
   tasks:
